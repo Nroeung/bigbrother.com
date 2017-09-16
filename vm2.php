@@ -33,7 +33,8 @@
      <table height=60px  align=center margin=0px border="0">
      <tr bgcolor='white'>
         <td><a href="home.php">Home</a></td>
-        <td><a href="vmlist.php">VM List</a></td>
+        <td><a href="vmlist.php">Manage Configurations</a></td>
+        <td><a href="create.php">Create Configurations</a></td>
         <td>User: Nhim</td>
         <td><a href="login.php">Logout</a></td>
       </tr>
@@ -74,7 +75,7 @@
 
 <div class="button-run">
   <table class=button-table>
-  <tr> <td> <button style="height:50px;width:150px" id="button1" type="button">Setup and Install</button>
+  <tr> <td> <button style="height:70px;width:170px" id="button1" type="button">Setup and Install</button>
   <script type="text/javascript">
       $(document).ready(function(){
           $('#button1').click(function(){
@@ -89,8 +90,9 @@
      });
   });
   </script></td>
-  <td><button style="height:50px;width:150px" id="button2" type="button"><a href="http://10.10.53.80:3000/dashboard/db/at-hack-o-thon-monitor?refresh=5m&orgId=1&var-Group=apps&var-Server=10.10.53.82&var-MinStep=$__auto_interval">Netdata</a></button></td>
-  <td><button style="height:50px;width:150px" id="button3" type="button">Tableu</button></td>
+  <td><button style="height:70px;width:170px" id="button2" type="button"><a href="http://10.10.53.80:3000/dashboard/db/at-hack-o-thon-monitor?refresh=5m&orgId=1&var-Group=apps&var-Server=10.10.53.82&var-MinStep=$__auto_interval">Realtime Infrastructure Monitoring</a></button></td>
+  <td><button style="height:70px;width:170px" id="button3" type="button"><a href="https://public.tableau.com/profile/kapil5292#!/vizhome/OrganizationalInfrastructureRealTimeAnalysis/Dashboard1">Realtime Infrastructure BI & Analytics</a></button></td>
+  <td><button style="height:70px;width:170px" id="button3" type="button"><a href="http://10.37.109.157/nagiosxi/ ">Nagios</a></button></td>
 </tr>
 </table>
 </div>

@@ -31,16 +31,24 @@
      <table height=60px  align=center margin=0px border="0">
      <tr bgcolor='white'>
         <td><a href="home.php">Home</a></td>
-        <td><a href="vmlist.php">VM List</a></td>
+        <td><a href="vmlist.php">Manage Configurations</a></td>
+        <td><a href="create.php">Create Configurations</a></td>
         <td>User: Nhim</td>
         <td><a href="login.php">Logout</a></td>
       </tr>
     </table>
     </div>
+
     <div class="welcome">
-           <h1><font face="sans-serif" class="site-name2" style="font-size: 48px" color="black">Welcome to Big Brother</font></h1>
+      <h1><font face="arial" class="site-name2" style="font-size: 38px" color="black">Arris Big Brother Hackathon Page</font></h1>
+      <p>Arris Big Brother is centralized management system capable of complete systems development life cycle (SDLC) management for organizational infrastructure optimization.</p>
+      <ul>
+        <li>Simple and easy to use UI/UX </li>
+        <li>Automated infrastructure deployment system </li>
+        <li>Real Time monitoring system</li>
+        <li>Real Time business intelligence analytical interface</li>
+        <li>Big Data Mining System</li>
+      </ul>
     </div>
-
-
   </body>
  </html>

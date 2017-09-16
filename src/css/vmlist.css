@@ -10,7 +10,6 @@ body{
   background-color: #dddddd;
   height:100px;
   text-align: center;
-  bor
 }
 
 .site-name{
@@ -54,33 +53,20 @@ height: 60px;
 background-color: #dddddd;
 }
 
-.infor-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+select{
+  height:50px;
+  width:200px;
+  font-size: 20px;
+  font: arial;
+
 }
-.infor-table td, .info-table th{
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+option{
+  font-size: 20px;
+  font: arial;
 }
 
-.infor-table tr:nth-child(even) {
-    background-color: #dddddd;
-}
-
-.top-header-bg{
-  display: block;
-  position: relative;
-  background-color: white;
-  position: relative;
-  height: 10px;
-  width: 100%;
-}
-
-.button-run{
-  position: relative;
-  background-color: white;
-  height: 100px;
-  width: 100%;
+.table1 td{
+  font: arial;
+  font-size: 25px;
+  text-align: center;
 }
